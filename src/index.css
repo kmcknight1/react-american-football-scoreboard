@@ -19,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
+  background-image: url("https://images.unsplash.com/photo-1567459169668-95d355371bda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80");
 }
 
 code {
@@ -26,26 +27,38 @@ code {
     monospace;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   display: inline-block;
+  width: 30rem;
+  height: 5rem;
   border: none;
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #414141;
-  color: #ffffff;
+  background: #ffffff;
+  color: black;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: bold;
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
+  box-shadow: 3px 3px 3px black;
+  text-shadow: 0px 2px 3px grey;
 }
 
 button:hover,
 button:focus {
-  background: #a2272d;
+  background: #af750a;
 }
 
 button:focus {
